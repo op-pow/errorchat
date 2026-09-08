@@ -1,10 +1,8 @@
-# Nexus Multi-Chat Interface
+Nexus Global Communications - Messaging Fix
 
-An upgraded version of Nexus Chat that features a sidebar with multiple conversation partners, including real-person profiles (simulated) and a dedicated AI Assistant.
-
-## Features
-- **Multi-Chat Sidebar**: Seamlessly switch between different contacts.
-- **AI Nexus Assistant**: A dedicated AI profile for automated help.
-- **Simulated Real People**: Sarah, Alex, and Jordan provide human-like responses with varied delays.
-- **State Persistence**: Conversations stay active as you switch between profiles within a session.
-- **Responsive Design**: Full-screen layout optimized for desktop and mobile use.
+The messaging system was updated to ensure robust delivery and UI feedback. Key improvements include:
+1. Improved form submission handling to prevent any page refreshes.
+2. Added a 'Typing...' indicator to give users feedback while the AI/Bot is processing a response.
+3. Enhanced scrolling logic to ensure the latest messages are always visible immediately after sending.
+4. Refined mobile layout to ensure the input area remains accessible even when the virtual keyboard is active.
+5. Added safeguards to message rendering to prevent script crashes on empty message histories.
